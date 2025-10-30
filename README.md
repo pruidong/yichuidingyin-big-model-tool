@@ -2,18 +2,13 @@
 
 ## 使用
 
-脚本主要用于在Linux环境中使用，快速实现LLM,VLM等大模型的推理、微调、合并等。
+脚本主要用于在Linux（Ubuntu）环境中使用，快速实现LLM,VLM等大模型的推理、微调、合并等。
 
 特性如下：
 
 1. 支持多个镜像下载模型文件，支持全部下载/单文件、多文件下载；
 2. 支持微调参数设置（提供默认参数、默认数据集）；
 3. 自动生成执行脚本。
-
-## 前置条件
-
-1. 需要先安装[https://github.com/modelscope/ms-swift](https://github.com/modelscope/ms-swift)工具；
-2. 安装vllm；
 
 ## 目前限制
 
